@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ps-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./static/style.css">
+    <title>TrupeDeMaricas - Memória</title>
+</head>
+<body onload="createGame()">
+    <h1>Jogo da Memória</h1>
+
+    <p>Tempo Recorde: <span id="record">Quão rápido você consegue descobrir todos os pares?</span></p>
+
+    <main id="board"></main>
+
+    <section class="BoardControl">
+        <button class="sortDeck button" onclick="restartGame()">Embaralhar</button>
+        <button class="startGame button" onclick="startGame()">Começar!</button>
+    </section>
+    
+</body>
+<script src="./static/app.js"></script>
+</html>

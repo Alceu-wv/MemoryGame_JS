@@ -1,0 +1,40 @@
+h1, p {
+    text-align: center;
+}
+
+#board, .BoardControl, .score {
+    display: flex;
+    flex-wrap: wrap;
+    width: 530px;
+    margin: auto;
+}
+
+.BoardControl, .score {
+    justify-content:  flex-end;
+    margin-top: 20px;
+}
+
+.score {
+    text-align: end;
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 16px;
+  }
+
+.score {
+    display: block;
+}
+
+img {
+    width: 130px;
+    height: 130px;
+    border: 0.2px solid gray;
+}
+
